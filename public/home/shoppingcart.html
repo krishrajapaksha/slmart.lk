@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slmart.lk | Shopping Cart</title>
+
+    <!--Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--owl-carousel-->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+    <!--Custom style sheets-->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container navbar-container">
+      <a class="navbar-brand me-auto" href="#"><img src="assets/icon/logo.svg"></a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="#" class="wish-button"><img src="assets/icon/Heart.svg"></a>
+          <a href="#" class="cart-button"><img src="assets/icon/cart.svg"></a>
+          <a href="#" class="profile-button"><img src="assets/icon/Profile.svg"></a>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Flash Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">New Arrivals</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Televisions</a></li>
+                <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+                <li><a class="dropdown-item" href="#">Laptops</a></li>
+                <li><a class="dropdown-item" href="#">Refrigerators</a></li>
+                <li><a class="dropdown-item" href="#">Washing Machines</a></li>
+                <li><a class="dropdown-item" href="#">Air Conditioners</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="search-container">
+        <form action="#" method="get">
+          <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+          <label class="button searchbutton" for="searchright"><img src="assets/icon/Search.svg"></label>
+        </form>
+      </div>
+      
+      <div class="nav-icons d-none d-lg-block">
+        <a href="#" class="wish-button mx-lg-2"><img src="assets/icon/Heart.svg"></a>
+        <a href="#" class="cart-button mx-lg-2"><img src="assets/icon/cart.svg"></a>
+        <a href="#" class="login-btn">Login</a>
+      </div>
+      
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+<!--End Navbar-->
+
+<!-- BREADCRUMB -->
+  <div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="breadcrumb-header">Shopping cart</h5>
+                <ul class="breadcrumb-tree">
+                    <li><a href="#">Shop</a></li>
+                    <li class="active">Shopping cart</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /Breadcomb -->
+
+<!-- Shopping Cart Section Begin -->
+<section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="shopping-cart-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="product-cart-item">
+                                    <div class="product-cart-item-pic">
+                                        <img src="" alt="item image">
+                                    </div>
+                                    <div class="product-cart-item-text">
+                                        <h6>Item name</h6>
+                                        <h5>Rs. 10,000</h5>
+                                    </div>
+                                </td>
+                                <td class="quantity-item">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="text" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="cart-price">Rs. 10,000</td>
+                                <td class="cart-close"><i class="fa-solid fa-xmark"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="product-cart-item">
+                                    <div class="product-cart-item-pic">
+                                        <img src="" alt="item image">
+                                    </div>
+                                    <div class="product-cart-item-text">
+                                        <h6>Item name</h6>
+                                        <h5>Rs. 10,000</h5>
+                                    </div>
+                                </td>
+                                <td class="quantity-item">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="text" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="cart-price">Rs. 10,000</td>
+                                <td class="cart-close"><i class="fa-solid fa-xmark"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="product-cart-item">
+                                    <div class="product-cart-item-pic">
+                                        <img src="" alt="item image">
+                                    </div>
+                                    <div class="product-cart-item-text">
+                                        <h6>Item name</h6>
+                                        <h5>Rs. 10,000</h5>
+                                    </div>
+                                </td>
+                                <td class="quantity-item">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="text" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="cart-price">Rs. 10,000</td>
+                                <td class="cart-close"><i class="fa-solid fa-xmark"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="product-cart-item">
+                                    <div class="product-cart-item-pic">
+                                        <img src="" alt="item image">
+                                    </div>
+                                    <div class="product-cart-item-text">
+                                        <h6>Item name</h6>
+                                        <h5>Rs. 10,000</h5>
+                                    </div>
+                                </td>
+                                <td class="quantity-item">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="text" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="cart-price">Rs. 10,000</td>
+                                <td class="cart-close"><i class="fa-solid fa-xmark"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="#" class="continue"><i class="fa-solid fa-arrow-right icon"></i>Continue Shopping</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="cart-total">
+                    <h6>Cart total</h6>
+                    <ul>
+                        <li>Total <span>Rs. 40,000</span></li>
+                    </ul>
+                    <a href="#" class="primary-btn">Proceed to checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Shopping Cart Section End -->
+
+
+
+
+<!-- Top Footer Section -->
+
+<footer class="top-footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-3 col-sm-6">
+            <div class="tf-icon d-flex align-items-center">
+              <img src="assets/icon/delivery.svg" alt="">
+              <div class="tf-details">
+                <h6>Free Islandwide Delivery</h6>
+                <p>For orders above Rs. 15,000</p>
+              </div> 
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-3 col-sm-6">
+              <div class="tf-icon d-flex align-items-center">
+                <img src="assets/icon/bestprice.svg" alt="">
+                <div class="tf-details">
+                  <h6>Best Price Guarantee</h6>
+                  <p>Lowest possible prices</p>
+                </div> 
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-6">
+              <div class="tf-icon d-flex align-items-center">
+                <img src="assets/icon/service.svg" alt="">
+                <div class="tf-details">
+                  <h6>After Sales Service</h6>
+                  <p>Customer support</p>
+                </div> 
+              </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  <!-- End Top Footer Section -->
+  
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-6">
+                <div class="footer-about">
+                    <h6>ABOUT US</h6>
+                    <p>SL Mart is one of the online shopping stores which provides Laptops, AC, Mobiles, Washing Machines, TVs for flexible rates in Sri Lanka.</p>
+                    <ul class="footer-links">
+                      <li><a href="#"><i class="fa-solid fa-location-dot"></i>142/C, Kurunegala Road, Narammala</a></li>
+                      <li><a href="#"><i class="fa-solid fa-phone"></i>+94 77 890 3248</a></li>
+                      <li><a href="#"><i class="fa-solid fa-envelope"></i>contactslmart@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="footer-widget footer-links">
+                    <h6>Shopping</h6>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">Delivary</a></li>
+                        <li><a href="#">Return & Exchanges</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                <div class="footer-widget">
+                    <h6>FOLLOW US</h6>
+                    <ul class="footer-social">
+                      <li><a href="#"><i class="fa-brands fa-facebook"></i>
+                      <li><a href="#"><i class="fa-brands fa-tiktok"></i>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i>								
+                    </ul>    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer-copyright-text"> 
+                    <p>Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

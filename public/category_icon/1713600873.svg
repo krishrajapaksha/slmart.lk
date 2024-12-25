@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.279236in" height="0.27274in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.9 1.85"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#1E1F29;stroke-width:0.14;stroke-miterlimit:2.61313}
+    .fil0 {fill:none}
+    .fil1 {fill:#1E1F29}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M0.07 0.07l0.1 0.03c0.06,0.02 0.1,0.06 0.1,0.12l0.11 1.05c0.01,0.06 0.05,0.1 0.11,0.1l1.12 0c0.06,0 0.1,-0.04 0.11,-0.1l0.11 -0.7c0.01,-0.03 -0,-0.06 -0.03,-0.09 -0.02,-0.03 -0.05,-0.04 -0.09,-0.04l-1.01 0"/>
+  <line class="fil0 str0" x1="1.14" y1="0.8" x2="1.41" y2= "0.8" />
+  <circle class="fil1" cx="0.59" cy="1.72" r="0.13"/>
+  <circle class="fil1" cx="1.5" cy="1.72" r="0.13"/>
+  <circle class="fil1" cx="0.07" cy="0.07" r="0.07"/>
+  <circle class="fil1" cx="0.71" cy="0.44" r="0.07"/>
+  <circle class="fil1" cx="1.14" cy="0.8" r="0.07"/>
+  <circle class="fil1" cx="1.4" cy="0.8" r="0.07"/>
+ </g>
+</svg>
